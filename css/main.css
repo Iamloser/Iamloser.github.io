@@ -10,28 +10,35 @@ img{
 	display: block;
 }
 
+html{
+	font-size: 62.5%;
+}
+
+h1{font-size: 3rem;}
+h3{font-size: 2rem;}
+
 #fp-nav>ul>li>a>span{
 	background-color: #fb417e;
 }
 
 .m-nameCard,.m-contents,.m-aboutMe,.m-timeLine,.m-timeLine-2,.works1,.works2{
 	position: relative;
-	width: 1100px;
+	width: 110rem;
 	margin: auto;
 }
 
 /*第一部分*/
 .m-nameCard{
-	height: 350px;
+	height: 35rem;
 }
 
 .m-nameCard .headPhoto{
 	position: absolute;
 	box-sizing: border-box;
-	top: 47px;
-	left: 200px;
-	width: 256px;
-	height: 256px;
+	top: 4.7rem;
+	left: 20rem;
+	width: 25.6rem;
+	height: 25.6rem;
 	border: 2px solid white;
 	border-radius: 50%;
 	background-image: url(../img/head.jpg);
@@ -40,23 +47,23 @@ img{
 
 .m-nameCard .intr{
 	position: absolute;
-	top: 47px;
-	right: 50px;
+	top: 4.7rem;
+	right: 5rem;
 	box-sizing: border-box;
-	height: 256px;
-	width: 500px;
-	padding: 0 50px 0 50px;
+	height: 25.6rem;
+	width: 50rem;
+	padding: 1rem 5rem 1rem 5rem;
 	border-left: 1px solid #fff;
 	color: #feffff;
 }
 
 .m-nameCard .intr p{
-	font-size: 22px;
-	margin: 15px 0;
+	font-size: 2.2rem;
+	margin: 1.5rem 0;
 }
 
 .m-nameCard .intr .nm,.m-nameCard .intr .job{
-	font-size: 26px;
+	font-size: 2.6rem;
 	color: #ff3f8d;
 }
 
@@ -67,24 +74,24 @@ img{
 
 .m-contents .title{
 	position: absolute;
-	left: 42px;
-	width: 195px;
-	height: 370px;
+	left: 10rem;
+	width: 19.5rem;
+	height: 37rem;
 	text-align: center;
 	background-color: #232137;
 }
 
 .m-contents .title p{
-	font-size: 30px;
-	margin-top: 310px;
+	font-size: 3rem;
+	margin-top: 31rem;
 	color: #ff3f8d;
 }
 
 .m-contents .mainList{
 	position: absolute;
-	top: 150px;
-	left: 350px;
-	font-size: 30px;
+	top: 12rem;
+	left: 35rem;
+	font-size: 3rem;
 }
 
 .m-contents .mainList a:hover{
@@ -92,7 +99,7 @@ img{
 }
 
 .m-contents .mainList>li{
-	margin: 35px 0;
+	margin: 3.5rem 0;
 }
 
 .m-contents .mainList>li>a{
@@ -102,17 +109,17 @@ img{
 .m-contents .mainList>li>a:before{
 	content: '';
 	display: inline-block;
-	width: 12px;
-	height: 12px;
-	margin-right: 25px;
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-right: 2.5rem;
 	border-radius: 50%;
 	background-color: #ff4285;
 }
 
 .m-contents .childList>li{
-	font-size: 23px;
-	margin: 25px 0;
-	padding-left: 50px;
+	font-size: 2.3rem;
+	margin: 2.5rem 0;
+	padding-left: 5rem;
 }
 
 .m-contents .childList>li>a{
@@ -122,9 +129,9 @@ img{
 .m-contents .childList>li>a:before{
 	content: '';
 	display: inline-block;
-	width: 10px;
-	height: 10px;
-	margin-right: 25px;
+	width: 1rem;
+	height: 1rem;
+	margin-right: 2.5rem;
 	border-radius: 50%;
 	background-color: #ff4285;
 }
@@ -137,24 +144,26 @@ img{
 
 .m-aboutMe h1{
 	position: absolute;
-	top: 120px;
-	left: 140px;
+	top: 5rem;
+	left: 14rem;
 }
 
 .m-aboutMe section{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-  width: 760px;
-  height: 460px;
-  margin-left: -380px;
-  margin-top: -230px;
+  width: 70rem;
+  transform: translate(-50%,-50%);
   padding: 10px;
   font-size: 20px;
 }
 
 .m-aboutMe section p{
 	padding: 10px 5px;
+}
+
+.m-aboutMe section p span{
+	margin-right: 1.5rem;
 }
 
 /*第四部分*/
@@ -166,36 +175,36 @@ img{
 
 .m-timeLine .title{
 	position: absolute;
-	top: 80px;
-	left: 80px;
-	width: 460px;
-	height: 100px;
-	line-height: 100px;
+	top: 4rem;
+	left: 8rem;
+	width: 46rem;
+	height: 6rem;
+	line-height: 6rem;
 	text-align: center;
-	font-size: 35px;
+	font-size: 3.5rem;
 	color: #fefdff;
 	background-color: #252338;
 }
 
 .m-timeLine .main{
 	position: relative;
-  margin-top: 180px;
+  margin-top: 10rem;
   height: 100%;
 }
 
 .m-timeLine .main .line1{
 	position: absolute;
-	left: 310px;
-	top: 10px;
+	left: 31rem;
+	top: 0.5rem;
 	width: 0;
-	height: 75px;
+	height: 4rem;
 	border-left: 2px solid #493046;
 }
 
 .m-timeLine .main .line2{
 	position: absolute;
-	left: 310px;
-	top: 135px;
+	left: 31rem;
+	top: 9rem;
 	width: 0;
 	height: 100%;
 	border-left: 2px solid #fc4482;
@@ -204,10 +213,10 @@ img{
 .m-timeLine .main .ball1{
 	position: absolute;
 	z-index: 1;
-	left: 301px;
-	top: 100px;
-	width: 20px;
-	height: 20px;
+	left: 30.1rem;
+	top: 5.8rem;
+	width: 2rem;
+	height: 2rem;
 	border-radius: 50%;
 	background-color: #fc4482;
 }
@@ -215,47 +224,41 @@ img{
 .m-timeLine .main .ball2{
 	position: absolute;
 	z-index: 0;
-	left: 293px;
-	top: 92px;
-	width: 36px;
-	height: 36px;
+	left: 29.3rem;
+	top: 5.1rem;
+	width: 3.5rem;
+	height: 3.5rem;
 	border-radius: 50%;
 	background-color: #493046;
 }
 
 .m-timeLine .main .img1{
 	position: absolute;
-	top: 90px;
-	left: 100px;
-	width: 170px;
-	height: 30px;
+	top: 5.8rem;
+	left: 10rem;
+	width: 17rem;
+	height: 3rem;
 }
-
-/* .m-timeLine .main .img1 img{
-	width: 100%;
-	height: auto;
-	max-width: 100%;
-	display: block;
-} */
 
 .m-timeLine .main section{
 	position: absolute;
-	left: 350px;
-	top: 100px;
-	font-size: 18px;
+	left: 35rem;
+	top: 6rem;
+	font-size: 1.6rem;
 }
 
 .m-timeLine .main section p:not(:first-child){
-  margin: 10px 0;
+  margin-bottom: 1rem;
 }
 
 /*第四部分公用*/
 .looksWhite{
   color: white;
-  font-size: 20px;
+  font-size: 1.8rem;
 }
 
 .workedTime{
+	margin-bottom: 1rem;
 	color: #fc4482;
 	text-decoration: none;
 }
@@ -268,20 +271,20 @@ img{
 
 .m-timeLine-2 .line1{
 	position: absolute;
-	left: 310px;
-	top: 5px;
+	left: 31rem;
+	top: 0.5rem;
 	width: 0;
-	height: 295px;
+	height: 20rem;
 	border-left: 2px solid #fc4482;
 }
 
 .m-timeLine-2 .ball1{
 	position: absolute;
 	z-index: 1;
-	left: 301px;
-	top: 312px;
-	width: 20px;
-	height: 20px;
+	left: 30.1rem;
+	top: 21.7rem;
+	width: 2rem;
+	height: 2rem;
 	border-radius: 50%;
 	background-color: #fc4482;
 }
@@ -289,37 +292,37 @@ img{
 .m-timeLine-2 .ball2{
 	position: absolute;
 	z-index: 0;
-	left: 293px;
-	top: 304px;
-	width: 36px;
-	height: 36px;
+	left: 29.3rem;
+	top: 20.9rem;
+	width: 3.5rem;
+	height: 3.5rem;
 	border-radius: 50%;
 	background-color: #493046;
 }
 
 .m-timeLine-2 .company{
 	position: absolute;
-	top: 310px;
-	left: 100px;
-	width: 170px;
-	height: 30px;
-	line-height: 30px;
+	top: 21rem;
+	left: 10rem;
+	width: 17rem;
+	height: 3rem;
+	line-height: 3rem;
 	text-align: center;
-	font-size: 22px;
+	font-size: 2.2rem;
 	color: white;
 	background-color: #252338;
-	border-radius: 10px;
+	border-radius: 1rem;
 }
 
 .m-timeLine-2 section{
 	position: absolute;
-	left: 350px;
-	top: 310px;
-	font-size: 18px;
+	left: 35rem;
+	top: 21.7rem;
+	font-size: 1.6rem;
 }
 
 .m-timeLine-2 section p:not(:first-child){
-  margin: 10px 0;
+  margin-bottom: 1rem;
 }
 
 /* 第六部分 */
@@ -329,96 +332,94 @@ img{
 
 .works1 .title{
 	position: absolute;
-	top: 120px;
-	left: 140px;
+	top: 5rem;
+	left: 14rem;
 	color: #fefdff;
 }
 
 .works1 .leftSide{
   position: absolute;
-  top: 240px;
-  left: 170px;
-  width: 400px;
-  height: 500px;
-  padding: 10px;
+  top: 17rem;
+  left: 25rem;
+  width: 40rem;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
   color: #bcbcc6;
 }
 
 .works1 .leftSide h3,.works2 .intr h3{
-	margin: 10px 0;
+	margin-bottom: 1rem;
 	color: white;
 }
 
 .works1 .leftSide p,.works2 .intr p{
-  padding: 10px;
+  padding: 1rem;
 }
 
 .works1 .leftSide p::before, .works2 .intr p::before{
 	content: "";
 	display: inline-block;
 	margin-right: 10px;
-	width: 5px;
-	height: 5px;
+	width: 0.5rem;
+	height: 0.5rem;
   text-align: center;
 	border-radius: 50%;
 	background-color: #fc4482;
 }
 
 .works1 .rightSide p{
-  width: 160px;
+  width: 16rem;
   transform: skew(20deg);
   box-shadow: -30px 20px 10px #161a25;
 }
 
 .works1 .rightSide .wx1{
 	position: absolute;
-	top: 200px;
-	left: 660px;
+	top: 10rem;
+	left: 76rem;
 }
 
 .works1 .rightSide .wx{
 	position: absolute;
-	top: 500px;
-	left: 660px;
+	top: 20rem;
+	left: 60rem;
 }
 
 /* 第七部分 */
 .works2{
   height: 100%;
 }
+.works2 .intr{
+	position: absolute;
+	font-size: 1.4rem;
+	width: 40rem;
+	padding-bottom: 1rem;
+	color: #bcbcc6;
+	right: 10rem;
+}
 
 .works2 .intr1{
-	position: absolute;
-  top: 100px;
-  right: 150px;
-  width: 400px;
-  padding: 10px;
-  color: #bcbcc6;
+  top: 5rem;
 }
 
 .works2 .intr2{
-  position: absolute;
-  top: 350px;
-  right: 150px;
-  width: 400px;
-  padding: 10px;
-  color: #bcbcc6;
+  top: 23rem;
 }
 
 .works2 .pic p{
-	width: 380px;
+	width: 38rem;
 	transform: rotate(-10deg);
-  box-shadow: -20px 10px 10px #161a25;
+  box-shadow: -2rem 1rem 1rem #161a25;
 }
 
 .works2 .pic .shop{
 	position: absolute;
-	top: 200px;
-	left: 100px;
+	top: 5rem;
+	left: 10rem;
 }
 
 .works2 .pic .shop1{
 	position: absolute;
-	top: 500px;
-	left: 100px;
+	top: 29rem;
+	left: 10rem;
 }
