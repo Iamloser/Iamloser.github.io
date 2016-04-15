@@ -178,7 +178,38 @@
     			loopBottom: true,
     			navigation: true,
     			navigationPosition: 'right',
-    			anchors: ['nameCard', 'contents', 'aboutMe', 'jobs1', 'jobs2','works1','works2']
+    			anchors: ['nameCard', 'contents', 'aboutMe', 'jobs1', 'jobs2','works1','works2'],
+
+    			'afterLoad': function(anchorLink, index){
+    				if(index == 6){
+    					$('.wx1').addClass('wx1h');
+    					$('.wx').addClass('wxh');
+    				}
+    				else if(index == 7){
+    					$('.shop1').addClass('shop1h');
+    					$('.shop').addClass('shoph');
+    				}
+    			},
+
+    			'onLeave': function(index, nextIndex, direction){
+    				if (index == 6 && direction == 'down'){
+    					$('.wx1').removeClass('wx1h');
+    					$('.wx').removeClass('wxh');
+    				}
+    				else if(index == 6 && direction == 'up'){
+    					$('.wx1').removeClass('wx1h');
+    					$('.wx').removeClass('wxh');
+    				}
+    				else if(index == 7 && direction == 'up'){
+    					$('.shop1').removeClass('shop1h');
+    					$('.shop').removeClass('shoph');
+    				}
+    				else if(index == 7 && direction == 'up'){
+    					$('.shop1').removeClass('shop1h');
+    					$('.shop').removeClass('shoph');
+    				}
+    			}
+
 			  });
 		});
 

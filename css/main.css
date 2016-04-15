@@ -12,10 +12,16 @@ img{
 
 html{
 	font-size: 62.5%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode",
+             "Microsoft YaHei", "微软雅黑",
+             STXihei, "华文细黑",
+             sans-serif;
+  font-weight: 300;
 }
 
 h1{font-size: 3rem;}
 h3{font-size: 2rem;}
+h1,h2,h3,h4,h5,h6{font-weight: 500;}
 
 #fp-nav>ul>li>a>span{
 	background-color: #fb417e;
@@ -52,14 +58,18 @@ h3{font-size: 2rem;}
 	box-sizing: border-box;
 	height: 25.6rem;
 	width: 50rem;
-	padding: 1rem 5rem 1rem 5rem;
+	padding: 0 5rem 0 5rem;
 	border-left: 1px solid #fff;
 	color: #feffff;
 }
 
+.m-nameCard .intr h1{
+	margin-bottom: 1rem;
+}
+
 .m-nameCard .intr p{
 	font-size: 2.2rem;
-	margin: 1.5rem 0;
+	margin-bottom: 1.5rem;
 }
 
 .m-nameCard .intr .nm,.m-nameCard .intr .job{
@@ -375,15 +385,26 @@ h3{font-size: 2rem;}
 
 .works1 .rightSide .wx1{
 	position: absolute;
-	top: 10rem;
+	top: 15rem;
 	left: 76rem;
+	transition: top .5s ease-in 0s;
 }
 
 .works1 .rightSide .wx{
 	position: absolute;
-	top: 20rem;
+	top: 25rem;
 	left: 60rem;
+	transition: top .5s ease-in 0s;
 }
+
+.works1 .rightSide .wx1h{
+  top: 10rem;
+}
+
+.works1 .rightSide .wxh{
+  top: 20rem;
+}
+
 
 /* 第七部分 */
 .works2{
@@ -416,10 +437,20 @@ h3{font-size: 2rem;}
 	position: absolute;
 	top: 5rem;
 	left: 10rem;
+	transition: left .5s ease-in 0s;
 }
 
 .works2 .pic .shop1{
 	position: absolute;
 	top: 29rem;
 	left: 10rem;
+	transition: left .5s ease-in 0s;
+}
+
+.works2 .pic .shoph{
+	left: 15rem;
+}
+
+.works2 .pic .shop1h{
+	left: 15rem;
 }
