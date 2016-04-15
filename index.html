@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>blog</title>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		.section1{ background-image: url("img/bg_home.jpg"); background-size: cover;}
+	</style>
+</head>
+<body>
+	<div id="fullpage">
+	    <div class="section section1">
+	    	<h1>茫茫人海中，看到这里就是我们的缘分</h1>
+	    	<p></p>
+	    </div>
+	    <div class="section">第二页</div>
+	    <div class="section">第三页</div>
+	    <div class="section">第四页</div>
+	    <div class="section">第五页</div>
+	    <div class="section">第六页</div>
+	    <div class="section">第七页</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+    		$('#fullpage').fullpage({
+    			sectionsColor: ['#f5f6f7','black', '#d8d8d8', '#adadad', '#cbcbcb', 'black'],
+			});
+		});
+		
+	</script>
+</body>
+</html>
