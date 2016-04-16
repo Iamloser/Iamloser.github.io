@@ -169,7 +169,9 @@ h1,h2,h3,h4,h5,h6{font-weight: 500;}
 }
 
 .m-aboutMe section p{
-	padding: 10px 5px;
+	padding-bottom: 0.5rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 }
 
 .m-aboutMe section p span{
@@ -258,7 +260,7 @@ h1,h2,h3,h4,h5,h6{font-weight: 500;}
 }
 
 .m-timeLine .main section p:not(:first-child){
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 /*第四部分公用*/
@@ -332,7 +334,7 @@ h1,h2,h3,h4,h5,h6{font-weight: 500;}
 }
 
 .m-timeLine-2 section p:not(:first-child){
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 /* 第六部分 */
